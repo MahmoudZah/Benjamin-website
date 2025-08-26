@@ -1,52 +1,44 @@
-// Initialize AOS
-AOS.init({
-  duration: 800,
-  easing: "ease",
-  once: true,
-  offset: 100,
-});
+// // Initialize Swiper for Chef Show
+// const chefSwiper = new Swiper(".chef-swiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+//   breakpoints: {
+//     768: {
+//       slidesPerView: 2,
+//     },
+//     992: {
+//       slidesPerView: 3,
+//     },
+//   },
+// });
 
-// Initialize Swiper for Chef Show
-const chefSwiper = new Swiper(".chef-swiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
-    },
-    992: {
-      slidesPerView: 3,
-    },
-  },
-});
-
-// Initialize Swiper for Reviews
-const reviewsSwiper = new Swiper(".reviews-swiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    768: {
-      slidesPerView: 2,
-    },
-    992: {
-      slidesPerView: 3,
-    },
-  },
-});
+// // Initialize Swiper for Reviews
+// const reviewsSwiper = new Swiper(".reviews-swiper", {
+//   slidesPerView: 1,
+//   spaceBetween: 30,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   breakpoints: {
+//     768: {
+//       slidesPerView: 2,
+//     },
+//     992: {
+//       slidesPerView: 3,
+//     },
+//   },
+// });
 
 // Navbar active state on scroll
 document.addEventListener("DOMContentLoaded", () => {
