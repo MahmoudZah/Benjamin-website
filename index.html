@@ -3,16 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Benjamin the Juggling Clown</title>
+    <title>Benjamin the Juggling Clown - Home</title>
     <!-- Bootstrap 5 CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-    />
-    <!-- Swiper CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
@@ -33,7 +28,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Benjamin</a>
+        <a class="navbar-brand" href="index.html">Benjamin</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -45,25 +40,29 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="#home">Home</a>
+              <a class="nav-link active" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
+              <a class="nav-link" href="clown-show.html">Clown Show</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#clown">Clown</a>
+              <a class="nav-link" href="juggling-show.html">Juggling Show</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#juggler">Juggler</a>
+              <a class="nav-link" href="balloon-twisting.html"
+                >Balloon Twisting</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#chef-show">Chef Show</a>
+              <a class="nav-link" href="teaching-juggle.html"
+                >Teaching Juggle</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#reviews">Reviews</a>
+              <a class="nav-link" href="more-shows.html">More Shows</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -71,7 +70,7 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section">
+    <section class="hero-section">
       <div class="container">
         <div class="row align-items-center min-vh-100">
           <div class="col-lg-6" data-aos="fade-right">
@@ -80,11 +79,11 @@
               Experience magical moments with Benjamin the Juggling Clown.
               Perfect entertainment for parties, events, and special occasions.
             </p>
-            <a href="#contact" class="btn btn-primary btn-lg">Book Now</a>
+            <a href="contact.html" class="btn btn-primary btn-lg">Book Now</a>
           </div>
-          <div class="col-lg-6 d-flex justify-content-end" data-aos="fade-left">
+          <div class="col-lg-6" data-aos="fade-left">
             <img
-              src="assets/imgs/1.jpg"
+              src="https://placehold.co/600x400"
               alt="Benjamin the Clown"
               class="img-fluid rounded-4 hero-img"
             />
@@ -94,7 +93,7 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section-padding">
+    <section class="section-padding">
       <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
           <h2>About Me</h2>
@@ -138,259 +137,211 @@
       </div>
     </section>
 
-    <!-- Clown Shows Section -->
-    <section id="clown" class="section-padding bg-light">
+    <!-- Shows Section -->
+    <section class="section-padding bg-light">
       <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-          <h2>Benjamin the Juggling Clown</h2>
-          <p class="lead">Entertainment Options to Make Your Event Special</p>
+          <h2>Our Amazing Shows</h2>
+          <p class="lead">Click to explore each unique performance</p>
         </div>
         <div class="row g-4">
           <div
-            class="col-xl-3 col-lg-4 col-md-6"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <div class="show-card">
-              <i class="fas fa-hat-wizard fa-3x mb-3"></i>
-              <h4>Magic</h4>
-              <p>Mesmerizing magic tricks that will leave everyone amazed</p>
-            </div>
+            <a href="clown-show.html" class="show-card-link">
+              <div class="show-card">
+                <i class="fas fa-theater-masks fa-3x mb-3"></i>
+                <h4>Clown Show</h4>
+                <p>
+                  Experience the magic and laughter of our signature clown
+                  performance
+                </p>
+                <span class="show-card-arrow"
+                  ><i class="fas fa-arrow-right"></i
+                ></span>
+              </div>
+            </a>
           </div>
           <div
-            class="col-xl-3 col-lg-4 col-md-6"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <div class="show-card">
-              <i class="fas fa-gamepad fa-3x mb-3"></i>
-              <h4>Games</h4>
-              <p>Interactive games that get everyone involved</p>
-            </div>
+            <a href="juggling-show.html" class="show-card-link">
+              <div class="show-card">
+                <i class="fas fa-bowling-ball fa-3x mb-3"></i>
+                <h4>Juggling Show</h4>
+                <p>Witness amazing feats of skill and coordination</p>
+                <span class="show-card-arrow"
+                  ><i class="fas fa-arrow-right"></i
+                ></span>
+              </div>
+            </a>
           </div>
           <div
-            class="col-xl-3 col-lg-4 col-md-6"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <div class="show-card">
-              <i class="fas fa-bowling-ball fa-3x mb-3"></i>
-              <h4>Juggling</h4>
-              <p>Spectacular juggling performances</p>
-            </div>
+            <a href="balloon-twisting.html" class="show-card-link">
+              <div class="show-card">
+                <i class="fas fa-baby fa-3x mb-3"></i>
+                <h4>Balloon Twisting</h4>
+                <p>Creative balloon art that brings smiles to everyone</p>
+                <span class="show-card-arrow"
+                  ><i class="fas fa-arrow-right"></i
+                ></span>
+              </div>
+            </a>
           </div>
           <div
-            class="col-xl-3 col-lg-4 col-md-6"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <div class="show-card">
-              <i class="fas fa-compact-disc fa-3x mb-3"></i>
-              <h4>Plate Spinning</h4>
-              <p>Amazing plate spinning demonstrations</p>
-            </div>
+            <a href="teaching-juggle.html" class="show-card-link">
+              <div class="show-card">
+                <i class="fas fa-graduation-cap fa-3x mb-3"></i>
+                <h4>Teaching Kids to Juggle</h4>
+                <p>Fun and interactive juggling lessons for children</p>
+                <span class="show-card-arrow"
+                  ><i class="fas fa-arrow-right"></i
+                ></span>
+              </div>
+            </a>
           </div>
           <div
-            class="col-xl-3 col-lg-4 col-md-6"
+            class="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <div class="show-card">
-              <i class="fas fa-baby fa-3x mb-3"></i>
-              <h4>Balloon Twisting</h4>
-              <p>Creative balloon animals and shapes</p>
-            </div>
+            <a href="more-shows.html" class="show-card-link">
+              <div class="show-card">
+                <i class="fas fa-star fa-3x mb-3"></i>
+                <h4>More Fun Shows</h4>
+                <p>Discover our other exciting entertainment options</p>
+                <span class="show-card-arrow"
+                  ><i class="fas fa-arrow-right"></i
+                ></span>
+              </div>
+            </a>
           </div>
-          <div
-            class="col-xl-3 col-lg-4 col-md-6"
-            data-aos="fade-up"
-            data-aos-delay="600"
-          >
-            <div class="show-card">
-              <i class="fas fa-wand-magic-sparkles fa-3x mb-3"></i>
-              <h4>Interactive Magic</h4>
-              <p>Magic that involves the audience</p>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-4 col-md-6"
-            data-aos="fade-up"
-            data-aos-delay="700"
-          >
-            <div class="show-card">
-              <i class="fas fa-fire fa-3x mb-3"></i>
-              <h4>Sword / Fire Juggling</h4>
-              <p>Thrilling fire and sword juggling acts</p>
-            </div>
-          </div>
-          <div
-            class="col-xl-3 col-lg-4 col-md-6"
-            data-aos="fade-up"
-            data-aos-delay="800"
-          >
-            <div class="show-card">
-              <i class="fas fa-theater-masks fa-3x mb-3"></i>
-              <h4>Amazing Clowning Skits</h4>
-              <p>Hilarious clowning performances</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Juggler Section -->
-    <section id="juggler" class="section-padding">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-6" data-aos="fade-right">
-            <div class="position-relative juggler-images">
-              <img
-                src="https://placehold.co/500x600"
-                alt="Juggling Performance 1"
-                class="img-fluid rounded-4 mb-4"
-              />
-              <img
-                src="https://placehold.co/400x500"
-                alt="Juggling Performance 2"
-                class="img-fluid rounded-4 position-absolute juggler-img-2"
-              />
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-left">
-            <div class="ps-lg-4">
-              <h2>Professional Entertainment Solutions</h2>
-              <p class="lead">
-                We believe that we offer the most professional entertainment
-                solutions in the Greater Boston Area and beyond. We are a family
-                business and believe in QUALITY, not quantity. We believe that
-                it is people who make the events, and think that we make an
-                excellent addition to the celebration. When dealing with Elfant
-                Productions, you can be assured that an entertainer with a lot
-                of years of experience will arrive at your door, and will make
-                sure that to brighten everyone's day.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Chef Show Section -->
-    <section id="chef-show" class="section-padding bg-light">
-      <div class="container">
-        <div class="text-center mb-5" data-aos="fade-up">
-          <h2>Chef Show Gallery</h2>
-          <p class="lead">Experience the culinary magic</p>
-        </div>
-        <div class="swiper chef-swiper" data-aos="fade-up">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img
-                src="https://placehold.co/800x600"
-                alt="Chef Show 1"
-                class="img-fluid rounded-4"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://placehold.co/800x600"
-                alt="Chef Show 2"
-                class="img-fluid rounded-4"
-              />
-            </div>
-            <div class="swiper-slide">
-              <img
-                src="https://placehold.co/800x600"
-                alt="Chef Show 3"
-                class="img-fluid rounded-4"
-              />
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
         </div>
       </div>
     </section>
 
     <!-- Reviews Section -->
-    <section id="reviews" class="section-padding">
+    <section class="section-padding bg-light">
       <div class="container">
         <div class="text-center mb-5" data-aos="fade-up">
-          <h2>Client Reviews</h2>
-          <p class="lead">What people say about our performances</p>
+          <h2>Happy Moments</h2>
+          <p class="lead">Memories from our amazing events</p>
         </div>
-        <div class="swiper reviews-swiper" data-aos="fade-up">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <div class="review-card">
-                <img
-                  src="https://placehold.co/400x300"
-                  alt="Review 1"
-                  class="img-fluid rounded-4 mb-3"
-                />
-                <p class="review-text">
-                  "Amazing performance! Benjamin kept all the kids entertained
-                  throughout the party."
-                </p>
-                <p class="review-author">- Sarah Johnson</p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="review-card">
-                <img
-                  src="https://placehold.co/400x300"
-                  alt="Review 2"
-                  class="img-fluid rounded-4 mb-3"
-                />
-                <p class="review-text">
-                  "The best clown show we've ever had at our event. Highly
-                  recommended!"
-                </p>
-                <p class="review-author">- Michael Smith</p>
-              </div>
-            </div>
-            <div class="swiper-slide">
-              <div class="review-card">
-                <img
-                  src="https://placehold.co/400x300"
-                  alt="Review 3"
-                  class="img-fluid rounded-4 mb-3"
-                />
-                <p class="review-text">
-                  "Professional, punctual, and incredibly entertaining. Will
-                  book again!"
-                </p>
-                <p class="review-author">- Emily Davis</p>
+        <div class="row g-4">
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="review-image-card">
+              <img
+                src="https://placehold.co/600x400"
+                alt="Birthday Party Event"
+                class="img-fluid rounded-4"
+              />
+              <div class="review-image-overlay">
+                <div class="review-image-content">
+                  <div class="review-stars mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h5>Birthday Party</h5>
+                  <p>Sarah's 7th Birthday Celebration</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="review-image-card">
+              <img
+                src="https://placehold.co/600x400"
+                alt="Corporate Event"
+                class="img-fluid rounded-4"
+              />
+              <div class="review-image-overlay">
+                <div class="review-image-content">
+                  <div class="review-stars mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h5>Corporate Event</h5>
+                  <p>Annual Company Celebration</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="review-image-card">
+              <img
+                src="https://placehold.co/600x400"
+                alt="School Event"
+                class="img-fluid rounded-4"
+              />
+              <div class="review-image-overlay">
+                <div class="review-image-content">
+                  <div class="review-stars mb-2">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h5>School Fair</h5>
+                  <p>Spring Festival Performance</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section-padding bg-light">
+    <!-- Contact Push Section -->
+    <section class="section-padding">
       <div class="container">
-        <div class="text-center mb-5">
-          <h2>Get in Touch</h2>
-          <p class="lead">Book your event today!</p>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8 text-center">
-            <div class="contact-info">
-              <div class="mb-4">
-                <i class="fas fa-phone fa-2x mb-3"></i>
-                <h4>Call Us</h4>
-                <p class="lead">(555) 123-4567</p>
-              </div>
-              <div>
-                <i class="fas fa-envelope fa-2x mb-3"></i>
-                <h4>Email Us</h4>
-                <p class="lead">contact@benjamintheclown.com</p>
-              </div>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h2>Ready to Book Your Event?</h2>
+            <p class="lead">
+              Let's create unforgettable memories together! Contact us now to
+              check availability and discuss your event details.
+            </p>
+            <a href="contact.html" class="btn btn-primary btn-lg mt-3"
+              >Get in Touch</a
+            >
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <img
+              src="https://placehold.co/600x400"
+              alt="Contact Us"
+              class="img-fluid rounded-4"
+            />
           </div>
         </div>
       </div>
@@ -398,7 +349,6 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
