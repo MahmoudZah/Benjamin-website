@@ -1,0 +1,22 @@
+# Large media files
+assets/vids/
+*.mp4
+*.MP4
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Optional: Uncomment if you want to exclude large images
+# assets/imgs/
+# *.jpg
+# *.JPG
+# *.png
+# *.PNG
