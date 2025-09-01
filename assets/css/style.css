@@ -526,6 +526,22 @@ body {
   margin-bottom: 0;
 }
 
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #b32234;
+  transform: translateY(-3px);
+}
+
 .contact-form-card {
   background-color: var(--white);
   padding: 2.5rem;
