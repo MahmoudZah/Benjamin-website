@@ -40,6 +40,33 @@
 //   },
 // });
 
+// Initialize Moments Swiper
+const momentsSwiper = new Swiper(".moments-swiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 2,
+    },
+    992: {
+      slidesPerView: 3,
+    },
+  },
+});
+
 // Initialize Reviews Swiper
 const reviewsSwiper = new Swiper(".reviews-swiper", {
   slidesPerView: 1,
